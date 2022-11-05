@@ -1,0 +1,30 @@
+
+.main-header{
+    min-height: 600px;
+    background: url(images/Car2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel{
+    height: 600px;
+    perspective: 250px;
+}
+.carousel .carousel-item{
+    width: 450px;
+    background: rgb(234, 245, 248);
+    padding: 50px;
+    height: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.slider{
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+

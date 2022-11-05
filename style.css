@@ -1,0 +1,37 @@
+
+
+.main-header{
+    min-height: 600px;
+    background: url(images/Car2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-text{
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+    
+}
+.welcome-text .welcome{
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+
+
+.icon-block {
+    padding: 0 15px;
+}
+.icon-block .material-icons {
+    font-size: inherit;
+}
+.card-content{
+    height: 200px;
+}
+
+.section-follow .fab {
+    margin: 5px 10px;
+}
+

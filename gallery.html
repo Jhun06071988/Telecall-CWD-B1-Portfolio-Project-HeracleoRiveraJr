@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="feature.css">
+
+    
+    <title>My Portfolio Project</title>
+
+</head>
+<body>
+    <!--Navbar-->
+    <header class="main-header">
+        <nav class="black">
+          <div class="container">
+            <div class="nav-wrapper">
+              <a href="" class="brand-logo">HeracleionX</a>
+              <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="index.html">Home</a></li>
+            <li><a class="waves-effect waves-light" href="gallery.html">Gallery</a></li>
+            <li><a class="waves-effect waves-light" href="testi.html">Testimonial</a></li>
+            <li><a class="waves-effect waves-light" href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light" href="#modal1">Login</a></li>
+          </ul>
+      </div>
+    </nav>
+
+    <h4 class="white-text center">Gallery</h4>
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/ferrari.jpg"> 
+            <div class="caption center-align">
+              <h3>Ferrari</h3>
+              <h5 class="light grey-text text-lighten-3">Elegant Dark-blue.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/bentley.jpg">
+            <div class="caption left-align">
+              <h3>Bentley</h3>
+              <h5 class="light grey-text text-lighten-3">The white Prince</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/firraricar.jpg"> 
+            <div class="caption right-align">
+              <h3>Ferrari SF90</h3>
+              <h5 class="light grey-text text-lighten-3">Red-hot Horse</h5>
+            </div>
+          </li>
+          <li>
+            <img src="images/porche.jpg"> 
+            <div class="caption center-align">
+              <h3>Porsche Gt</h3>
+              <h5 class="light grey-text text-lighten-3">Top Down baby</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+    <!--Sidenav-->
+        <ul class="sidenav" id="slide-out">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testi.html">Testimonial</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light grey center" href="#modal1">Login</a></li>
+        </ul>
+    </header>
+
+    <!-- Login Section -->
+  <div id="modal1" class="modal">
+    <div class="modal-content black-text">
+      <h4>Login Account</h4>
+      <p>Login to access the account</p>
+      <form action="">
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn grey">Reset Password</a>
+        <a href="#!" class="modal-close waves-effect waves-grey btn black">Login</a>
+      </div>
+    </div>
+</div>
+  
+    <h4 class="center">Commercial</h4>
+  <div class="video-container">
+    <iframe src="images/Our Story in 1 Minute.mp4" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+
+ <!-- Footer Section -->
+
+ <footer class="page-footer black">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 l6">
+        <h5 class="white-text">HeracleionX</h5>
+        <p class="grey-text text-lighten-4">We are very thankful to our trainor Boby Ferrer for his time for us. I will always be grateful to you for your support and kindness. It would be impossible to count all the ways you've helped me in my project. Thank you so much for all that you've done — I only hope I can return the favor sometime in the future. Thanks for being a good mentor and for guiding me on the right path.</p>
+      </div>
+      <div class="col s12 l4 offset-l2">
+        <h5 class="white-text"></h5>
+        <ul>
+          <h5>BRANCHES:</h5>
+          <li><a class="white-text" href="#!"> Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</a></li>
+          <br>
+          <li><a class="white-text" href="#!"> 107, Madhu Indl. Estate,
+            Mograpada, Mogra Village Road,
+            Andheri East,
+            Mumbai (Bombay) – 400069.
+            Maharashtra,
+            INDIA.</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright grey">
+    <div class="container center-align">
+    Made by <a class="blue-text text-lighten-3" href="#">HeracleionX 2022</a>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="init.js"></script>
+
+</body>
+</html>

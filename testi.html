@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="feature.css">
+
+    
+    <title>My Portfolio Project</title>
+
+</head>
+<body>
+    <!--Navbar-->
+    <header class="main-header">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="" class="brand-logo">HeracleionX</a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="index.html">Home</a></li>
+            <li><a class="waves-effect waves-light" href="gallery.html">Gallery</a></li>
+            <li><a class="waves-effect waves-light" href="testi.html">Testimonial</a></li>
+            <li><a class="waves-effect waves-light" href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light" href="#modal1">Login</a></li>
+          </ul>
+      </div>
+    </nav>
+  <!-- Carousel Section -->
+      <h4 class="white-text center">TESTIMONIAL</h4>
+      <div class="carousel"> 
+          <a class="carousel-item" href="#">
+            <div class="testimonial">
+              <div class="img-area">
+                <img  src="images/pexels-andrea-piacquadio-762080.jpg" alt="">
+              </div>
+              <p>“I just wanted to share a quick note and let you know that you guys do a really good job. I'm glad I decided to work with you. It's really great how easy your websites are to update and manage.</p>
+              <h4 class="black-text">Andrea Garret</h4>
+              <h5>CEO</h5>
+            </div>   
+          </a>
+          <a class="carousel-item" href="#">
+            <div class="testimonial">
+              <div class="img-area">
+                <img src="images/ben.jpg" alt="">
+              </div>
+              <p>“The way y'all listen to your customers while also prioritizing product enhancements should be the gold standard<p>
+              <h4 class="black-text">Ben Harden</h4>
+              <h5>Web Designer</h5>
+            </div>   
+          </a>
+          <a class="carousel-item" href="#">
+            <div class="testimonial">
+              <div class="img-area">
+                <img src="images/justine.jpg" alt="">
+              </div>
+              <p>I want to thanks the staffs they are all customer oriented, they answers all my questions. </p>
+              <h4 class="black-text">Justine Timber</h4>
+              <h5>Daytona Champion</h5>
+            </div>   
+          </a>
+          <a class="carousel-item" href="#">
+            <div class="testimonial">
+              <div class="img-area">
+                <img src="images/Thomas.jpg" alt="">
+              </div>
+              <p>You guys are great! my car is in good condition now, I will start my car racing this coming summer, thanks for your good service. .</p>
+              <h4 class="black-text">Thomas Edison</h4>
+              <h5>General Manager</h5>
+            </div>   
+          </a>
+      </div>
+    </div>
+  
+    <!--Sidenav-->
+        <ul class="sidenav" id="slide-out">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="testi.html">Testimonial</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light grey center" href="#modal1">Login</a></li>
+        </ul>
+    </header>
+
+    <!-- Login Section -->
+  <div id="modal1" class="modal">
+    <div class="modal-content black-text">
+      <h4>Login Account</h4>
+      <p>Login to access the account</p>
+      <form action="">
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn grey">Reset Password</a>
+        <a href="#!" class="modal-close waves-effect waves-grey btn black">Login</a>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-stats grey">
+    <div class="row">
+      <div class="card-panel">
+        <div class="black white-text center">
+          <h3 class="center">TRENDS AND ISSUES</h3>
+          <div class="card-content">
+          </div>
+          </div>
+        </div>
+      <div class="col s12 m6 l6">        
+      <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+      </div>
+      <div class="col s12 m6 l6">
+        <ul class="collection with-header latest-comments">
+          <li class="red black-text collection-header">
+              <h5>Latest Issues</h5>
+          </li>
+          <li class="collection-item avatar">
+            <img src="images/ben.jpg" alt="" class="circle">
+            <span class="title"><b>Jonas</b></span>
+            <p>Very Good</p>
+            <a href="#" class="approve green-text">Approve</a>
+            <a href="#" class="deny red-text">deny</a>
+          </li>
+          <li class="collection-item avatar">
+            <img src="images/justine.jpg" alt="" class="circle">
+            <span class="title"><b>Taylor</b></span>
+            <p>Very Good</p>
+            <a href="#" class="approve green-text">Approve</a>
+            <a href="#" class="deny red-text">deny</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-stats">
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <div class="card-panel blue lighten-3 black-text center">
+            <i class="material-icons medium">account_balance</i>
+            <h5>Weekly Income</h5>
+            <h3 class="count">239000</h3>
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+        </div>
+      </div><div class="col s12 m6 l3">
+        <div class="card-panel green lighten-3 black-text center">
+            <i class="material-icons medium">vertical_align_bottom</i>
+            <h5>Weekly Loss</h5>
+            <h3 class="count">67588</h3>
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+        </div>
+      </div> <div class="col s12 m6 l3">
+        <div class="card-panel pink lighten-3 black-text center">
+            <i class="material-icons medium">download</i>
+            <h5>Total Downloads</h5>
+            <h3 class="count">294000</h3>
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+        </div>
+      </div> <div class="col s12 m6 l3">
+        <div class="card-panel grey lighten-3 black-text center">
+            <i class="material-icons medium">cloud</i>
+            <h5>Daily Logs</h5>
+            <h3 class="count">2300</h3>
+            <div class="progress">
+              <div class="indeterminate"></div>
+            </div>
+        </div>
+      </div>  
+    </div>
+  </section>
+
+
+
+
+ <!-- Footer Section -->
+
+ <footer class="page-footer black">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 l6">
+        <h5 class="white-text">HeracleionX</h5>
+        <p class="grey-text text-lighten-4">We are very thankful to our trainor Boby Ferrer for his time for us. I will always be grateful to you for your support and kindness. It would be impossible to count all the ways you've helped me in my project. Thank you so much for all that you've done — I only hope I can return the favor sometime in the future. Thanks for being a good mentor and for guiding me on the right path.</p>
+      </div>
+      <div class="col s12 l4 offset-l2">
+        <h5 class="white-text"></h5>
+        <ul>
+          <h5>BRANCHES:</h5>
+          <li><a class="white-text" href="#!"> Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</a></li>
+          <br>
+          <li><a class="white-text" href="#!"> 107, Madhu Indl. Estate,
+            Mograpada, Mogra Village Road,
+            Andheri East,
+            Mumbai (Bombay) – 400069.
+            Maharashtra,
+            INDIA.</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright grey">
+    <div class="container center-align">
+    Made by <a class="blue-text text-lighten-3" href="#">HeracleionX 2022</a>
+    </div>
+  </div>
+</footer>
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="init.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="chart.js"></script>
+
+</body>
+</html>

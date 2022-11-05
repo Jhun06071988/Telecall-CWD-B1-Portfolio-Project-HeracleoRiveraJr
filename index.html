@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title>My Portfolio Project</title>
+
+</head>
+<body>
+  <!--Navbar-->
+  <header class="main-header">
+    <nav class="transparent">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="" class="brand-logo">HeracleionX</a>
+          <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light" href="#">Home</a></li>
+            <li><a class="waves-effect waves-light" href="gallery.html">Gallery</a></li>
+            <li><a class="waves-effect waves-light" href="testi.html">Testimonial</a></li>
+            <li><a class="waves-effect waves-light" href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light" href="#modal1">Login</a></li>
+          </ul>
+      </div>
+    </nav>
+    <!--Sidenav-->
+        <ul class="sidenav" id="slide-out">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="images/ferrari.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="images/ben.jpg"></a>
+            <a href="#name"><span class="black-text name">Jhun Rivera</span></a>
+            <a href="#email"><span class="black-text email">junpie@gmail.com</span></a>
+          </div></li>
+          <li><div class="divider"></div></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="gallery.html">Galery</a></li>
+            <li><a href="testi.html">Testimonial</a></li>
+            <li><a class="waves-effect waves-light" href="services.html">Services</a></li>
+            <li><a class="modal-trigger waves-effect waves-light grey center " href="#modal1">Login</a></li>
+        </ul>
+
+        <div class="welcome-text valign-wrapper">
+            <div class="white-text center-align welcome">
+                <h5 class="red-text">Welcome To HeracleionX</h5>
+                <h3>HeracleionX <b>SPORTS CAR</b></h3>
+                <p class="text-darken-5">
+                    Having any sports car, such as Ferrari or Bentley. We offer <br>full-service  maintenance and repair for both classic and modern vehicles.
+                </p>
+                <a href="#" class="waves-effect waves-light btn white black-text">Learn More</a>
+                <a class="modal-trigger waves-effect waves-light btn grey" href="#modal2">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Login Section -->
+  <div id="modal1" class="modal">
+    <div class="modal-content black-text">
+      <h4>Login Account</h4>
+      <p>Login to access the account</p>
+      <form action="">
+        <div class="input-field">
+          <input type="email" id="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password">
+          <label for="password">Password</label>
+        </div>
+      </form>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-green btn grey">Reset Password</a>
+        <a href="#!" class="modal-close waves-effect waves-grey btn black">Login</a>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Sign Up Section -->
+  
+  <div id="modal2" class="modal">
+    <div class="modal-content black-text">
+      <h4>Create An Account</h4>
+      <p>Sign Up For Free Access</p>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input id="first_name" type="text" class="validate">
+              <label for="first_name">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Last Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Confirm Password</label>
+            </div>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-close waves-effect waves-grey btn black">Sign In</a>
+      </div>
+    </div>
+  </div> 
+
+
+    <!-- Icon Section -->
+
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">plane</i></h2>
+                        <h5 class="center">Development Programs</h5>
+
+                        <p class="light">The development of service programs is one of the most exciting projects we at HeracleionX have ever been involved in.
+                        We are proud to be working with Bentley Motors, one of the most luxury car brand in the world, to develop new technologies that will help us reach our goal of becoming a leader in the car industry.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">shop</i></h2>
+                        <h5 class="center">Shop Online And Physical Store</h5>
+
+                        <p class="light">Shop Online And Physical Store
+                        At HeracleionX Stores, we believe that everyone should have access to high-quality, affordable clothing. That's why we offer online and physical store shopping options so you can buy your favorite items whenever you want. Whether you're looking for new styles or just want to save money, we've got you covered.</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center light-black-text"><i class="material-icons">settings</i></h2>
+                        <h5 class="center">Easy Settings</h5>
+
+                        <p class="light">Welcome to HeracleionX settings.
+                        This site is for anyone who wants to control the settings of the apps on their phone or tablet. We've got lots of helpful videos that'll teach you how to use our tools and features, along with articles that will help you understand the technical side of what we do.
+                        You can use it to customize your device, share it with friends, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <!--About Section-->
+    <section id="about" class="valign-wrapper grey lighten-4">
+        <div class="container black-text text-lighten-4">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="left-align">
+                        <p class="blue-text lighten-5">WHO IS HeracleionX</p>
+                        <h4 style="font-weight: bold">ABOUT US</h4>
+                        <span style="font-weight: 800;">HeracleionX isn't the guy offering sports car repair services from the back of his pickup truck.</span><br>
+                        <p>
+                            HeracleionX is your personal Sports Car maintenance consultant and a trusted, knowledgeable resource that is part of a leading national service franchise.<br><br>
+                            <u>Our team has over 20 years of experience, and we have access to the most advanced tools and equipment. We’re able to handle everything from oil changes to engine overhauls, transmission repairs, paint work, and more.</u><br>Our rates are competitive and our turnaround time is fast—we pride ourselves on being responsive and reliable!
+                        </p>
+                        <button class="waves-effect waves-light btn grey" type="button" style="border-radius:50px;">View More</button>
+                    </div>
+                </div>
+                <div class="col s12 m6">
+                    <img src="images/mechanic.jpg" alt="" class="circle responsive-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section id="services">
+        <div class="section-title center">
+            <p class="red-text">WHAT CAN WE DO?</p>
+            <h4 style="font-weight: bold;">OUR SERVICES</h4>
+            <p style="margin: 20px;">HeracleionX offer a range of car services dependent upon your needs and the needs of your car. Complete a few quick pieces<br> of information about the make, model and age of your vehicle and you can book your fixed price service online today.</p>
+        </div>
+    <!--Cards-->
+        <div class="cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 l4">
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/tyres.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">TYRE SERVICES<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">TYRE SERVICES<i class="material-icons right">close</i></span>
+                                <p>At HeracleionX, we are a mobile tyre service that will replace the tyres on your car at a location that is convenient for you. You can rely on our team to supply the tyres and perform any tyre service as required. The tyres that we currently stock include, Bridgestone, Firestone, and Dayton tyres.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/transmission.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">TRANSMISSION<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">TRANSMISSION REPAIR<i class="material-icons right">close</i></span>
+                                <p>HeracleionX, the Mobile Mechanics repair all types of gearbox and driveline problems. Whether your manual or automatic transmission is slipping in and out of gear, has a minor problem like an oil leak or whether your gearbox needs a total overhaul HeracleionX is here to help.We can also repair your noisy or worn out tail shaft and universal joints, differential, axle and wheel bearings. We also repair clutch related problems.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card small">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="images/battery.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">CAR BATTERIES<i class="material-icons right">more_vert</i></span>
+                                <p><a href="#">More</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">CAR BATTERIES<i class="material-icons right">close</i></span>
+                                <p>A car battery is the most important component in any vehicle’s electrical system. It provides short bursts of energy to power the car lights, accessories and engine. Once the battery jolts the engine to life, the alternator takes over and continues the power transmission.
+                                  If your car battery is dead, your vehicle won’t start, and the alternator will have to work too hard — potentially to the point of failure — which is why it's so important to take care of the battery.                                               At HeracleionX, our highly qualified mobile mechanics provide doorstep car service and car repairs across Australia including Brisbane, Sydney, Melbourne, Perth and Adelaide.                                  
+                                  Our vans are equipped with a full range of tools needed to perform almost any repair or replacement. Booking our on-site service will not just save you time but also prevent unnecessary travel to and from the workshop. With our mechanics working at your location, you can track the work that is being done on your car.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col s12 m6 l4">
+                          <div class="card small">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                  <img class="activator" src="images/GEAR.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <span class="card-title activator grey-text text-darken-4">GEAR BOX<i class="material-icons right">more_vert</i></span>
+                                  <p><a href="#">More</a></p>
+                              </div>
+                              <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">GEAR BOX<i class="material-icons right">close</i></span>
+                                  <p>An engine management system service is a full inspection and diagnostic service undertaken to determine why your engine management system has flagged a problem with your vehicle’s engine. Lube Mobile is the fleet of mobile mechanics servicing all of Australia, wherever our customers happen to be. As fully qualified mechanics, your specialist technician from Lube Mobile arrives to your location equipped with everything they need to undertake an engine management system service or an engine management system repair. This include specialist diagnostic tools which talk to your vehicle’s onboard computer directly to ascertain what, if any, fault has occurred and to determine the best and most affordable way of rectifying it.</p>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <div class="card small">
+                                <div class="card-image waves-effect waves-block waves-light">
+                                    <img class="activator" src="images/timing belt.jpg">
+                                </div>
+                                <div class="card-content">
+                                    <span class="card-title activator grey-text text-darken-4">TIMING BELT<i class="material-icons right">more_vert</i></span>
+                                    <p><a href="#">More</a></p>
+                                </div>
+                                <div class="card-reveal">
+                                    <span class="card-title grey-text text-darken-4">TIMING BELT<i class="material-icons right">close</i></span>
+                                    <p>A timing belt is designed to keep the camshaft belt and crankshaft of your car running smoothly so that the engine can achieve maximum efficiency. Located under a timing cover, this component is commonly made of high-quality rubber with nylon-reinforced cords inside that extends the life of the belt.
+                                    A timing belt is gradually exposed to wear and tear and needs to be replaced at regular intervals. If the timing belt stops functioning, your car will suddenly shut down while you are driving. If you don't replace a faulty belt, it can often lead to irreparable engine damage.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col s12 m6 l4">
+                          <div class="card small">
+                              <div class="card-image waves-effect waves-block waves-light">
+                                  <img class="activator" src="images/axle.jpg">
+                              </div>
+                              <div class="card-content">
+                                  <span class="card-title activator grey-text text-darken-4">AXLE WHEEL<i class="material-icons right">more_vert</i></span>
+                                  <p><a href="#">More</a></p>
+                              </div>
+                              <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">AXLE WHEEL<i class="material-icons right">close</i></span>
+                                  <p>Wheather your bearings are noisey or your axle seal is leaking we can help. We also replace damaged wheel studs and nuts.
+                                  We use only quality parts on your vehicle. We can replace any damaged or worn parts on site at your convenience. All work comes with a 12 Month/20,000km Warranty.                                    
+                                  You can book this online now or ask for a quote via email or phone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Blog -->
+
+    <section class="section section-blog grey lighten-4">
+        <h5 class="center">Blogs About Luxury Cars</h5>
+        <h3 class="center">Latest Blogs</h3>
+        <div class="row">
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/tesla.jpg">
+                <span class="card-title red-text">Tesla</span>
+              </div>
+              <div class="card-content">
+                <p>Tesla was incorporated in July 2003 by Martin Eberhard and Marc Tarpenning as Tesla Motors. The company's name is a tribute to inventor and electrical engineer Nikola Tesla. In February 2004, via a $6.5 million investment, Elon Musk became the largest shareholder of the company. He has served as CEO since 2008.</p>
+              </div>
+              <div class="card-action">
+                <a class="blue-text text-lighten-3" href="#">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/carblack.jpg">
+                <span class="card-title red-text">Bentley Motors</span>
+              </div>
+              <div class="card-content">
+                <p>Progress personified. Introducing the new #Bentayga Odyssean Edition combining #hybrid powertrain with design and materials that look to our future. Limited to 70 examples globally. Discover more: https://click.bentley/3TXBXl6 #Bentley Bentayga Odyssean Edition (hybrid) is available to order in most markets.</p>
+              </div>
+              <div class="card-action">
+                <a class="blue-text text-lighten-3" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/firraricar.jpg">
+                <span class="card-title red-text">Ferrari</span>
+              </div>
+              <div class="card-content">
+                <p>Just when we thought the two car combo we saw earlier in the week couldn’t get any better! The first Ferrari SF90  Stradale on Republic of Ireland soil, parked next to a Ferrari 488
+                  We had seen many photos and videos of the SF90 online but it is safe to say it isn’t until you see one in person that you realise the details of the car are on another level.</p>
+              </div>
+              <div class="card-action">
+                <a class="blue-text text-lighten-3" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m6 l3">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/jeep.jpg">
+                <span class="card-title red-text">JEEP</span>
+              </div>
+              <div class="card-content">
+                <p>It was the first car to ever offer luxury style with SUV performance, and we've seen many others like it since then. So, to sum it all up; Jeep derives from the military term GP, which stands for General Purpose vehicles.</p>
+              </div>
+              <div class="card-action">
+                <a class="blue-text text-lighten-3" href="#">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+  <!-- Section Follows -->
+
+  <section class="section section-follow black white-text">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>Follow HeracleionX</h4>
+          <p>Follow Us On Social Media For Updates</p>
+          <a href="#" class="white-text">
+            <i class="fab medium fa-facebook fa-x4"></i></a>
+          <a href="#" class="white-text">
+            <i class="fab medium fa-twitter fa-x4"></i></a>
+          <a href="#" class="white-text">
+            <i class="fab medium fa-youtube fa-x4"></i></a>
+          <a href="#" class="white-text">
+            <i class="fab medium fa-google fa-x4"></i></a>
+          <a href="#" class="white-text">
+            <i class="fab medium fa-linkedin fa-x4"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!--Section contact-->
+
+      <section class="section grey lighten-4 section-contact">
+        <div class="container">
+          <div class="row">
+            <form class="col s12">
+              <h3>Get In Touch</h3>
+              <p>Hi! We know it's not easy to reach out, but we'd love to hear from you! We're a small team of friendly people who love what we do, and would love to hear from you.</p>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_name" type="text" class="validate">
+                  <label for="icon_name">Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_email" type="email" class="validate">
+                  <label for="icon_email">Email</label>  
+                </div>            
+              </div>
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">message</i>
+                  <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                  <label for="icon_prefix2">Message</label>
+                </div>
+              </div>
+              <button class="btn black waves-effect waves-light" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+  <!-- Footer Section -->
+
+  <footer class="page-footer black">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 l6">
+          <h5 class="white-text">HeracleionX</h5>
+          <p class="grey-text text-lighten-4">We are very thankful to our trainor Boby Ferrer for his time for us. I will always be grateful to you for your support and kindness. It would be impossible to count all the ways you've helped me in my project. Thank you so much for all that you've done — I only hope I can return the favor sometime in the future. Thanks for being a good mentor and for guiding me on the right path.</p>
+        </div>
+        <div class="col s12 l4 offset-l2">
+          <h5 class="white-text"></h5>
+          <ul>
+            <h5>BRANCHES:</h5>
+            <li><a class="white-text" href="#!"> Robert Robertson, 1234 NW Bobcat Lane, St. Robert, MO 65584-5678.</a></li>
+            <br>
+            <li><a class="white-text" href="#!"> 107, Madhu Indl. Estate,
+              Mograpada, Mogra Village Road,
+              Andheri East,
+              Mumbai (Bombay) – 400069.
+              Maharashtra,
+              INDIA.</a></li>
+          </ul>
+        </div>
+        <a href="#" class="waves-effect waves-light btn grey">Back to top</a>
+      </div>
+    </div>
+    <div class="footer-copyright grey">
+      <div class="container center-align">
+      Made by <a class="blue-text text-lighten-3" href="#">HeracleionX 2022</a>
+      </div>
+    </div>
+  </footer>
+
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="init.js"></script>
+
+</body>
+</html>
